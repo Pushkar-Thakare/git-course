@@ -1,8 +1,8 @@
-from functions import greet
+import functions
 
 print("Hello World")
 name  = input("What is your name? : ")
 
-greet(name)
+functions.greet(name)
 
 print("How are you?")
