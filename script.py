@@ -5,7 +5,6 @@ print("Hello World")
 name  = input("What is your name? : ")
 
 
-functions.greet(name)
+print(functions.greet(name))
 
-
-print("How are you today?")
+print(f"{name}, how are you today?")
